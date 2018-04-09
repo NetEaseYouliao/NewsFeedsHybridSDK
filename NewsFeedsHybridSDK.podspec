@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
   s.source       = { :http => "https://github.com/NetEaseYouliao/NewsFeedsHybridSDK/raw/master/NewsFeedsHybridSDK/NewsFeedsHybridSDK-#{s.version}.zip" }
   s.requires_arc = true
   s.platform     = :ios
-  s.vendored_frameworks ='NewsFeedsHybridSDK/NewsFeedsHybridSDK.framework'
-  s.resource     = 'NewsFeedsHybridSDK/NFHybridBundle.bundle'
+  s.vendored_frameworks ='NewsFeedsHybridSDK.framework'
+  s.resource     = 'NewsFeedsHybridSDK.framework/Versions/A/Resources/NFHybridBundle.bundle'
 
   s.ios.deployment_target = "9.0"
 
