@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'NewsFeedsHybridSDK'
-  s.version      = '1.1.1'
+  s.version      = '1.2.0'
   s.summary      = "网易有料iOS Hybrid SDK"
   s.description  = <<-DESC
                    网易有料iOS Hybrid SDK
