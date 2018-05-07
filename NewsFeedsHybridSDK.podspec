@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.platform     = :ios
   s.vendored_frameworks ='NewsFeedsHybridSDK/NewsFeedsHybridSDK.framework'
-  s.resource     = 'NewsFeedsHybridSDK/NewsFeedsHybridSDK.framework/Versions/A/Resources/NFHybridBundle.bundle'
+  s.resource     = 'NewsFeedsHybridSDK/NFHybridBundle.bundle'
 
   s.ios.deployment_target = "9.0"
 
