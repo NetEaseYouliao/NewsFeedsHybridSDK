@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'NewsFeedsHybridSDK'
-  s.version      = '1.2.0'
+  s.version      = '1.2.1'
   s.summary      = "网易有料iOS Hybrid SDK"
   s.description  = <<-DESC
                    网易有料iOS Hybrid SDK
@@ -14,9 +14,8 @@ Pod::Spec.new do |s|
   s.vendored_frameworks ='NewsFeedsHybridSDK/NewsFeedsHybridSDK.framework'
   s.resource     = 'NewsFeedsHybridSDK/NewsFeedsHybridSDK.framework/Versions/A/Resources/NFHybridBundle.bundle'
 
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "9.0"
 
-  s.frameworks = 'UIKit', 'WebKit', 'CoreFoundation'
+  s.frameworks = 'UIKit', 'WebKit'
   s.dependency 'Masonry'
-  s.dependency 'NFUtilityFoundation'
 end
