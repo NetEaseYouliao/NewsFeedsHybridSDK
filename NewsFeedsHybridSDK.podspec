@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
 
   s.frameworks = 'UIKit', 'WebKit','CoreFoundation'
+  s.weak_frameworks = 'SafariServices'
   s.dependency 'Masonry'
   s.dependency 'NFUtilityFoundation','0.0.6'
 end
